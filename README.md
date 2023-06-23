@@ -1,1 +1,3 @@
-# Mangage
+# Manage
+
+Website template
