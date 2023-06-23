@@ -1,0 +1,21 @@
+:root {
+  --screen-xl: 1440px;
+  --screen-lg: 1024px;
+  --screen-sm: 375px;
+
+  --clr-red-100: hsl(13, 100%, 98%);
+  --clr-red-400: hsl(12, 88%, 59%);
+  --clr-blue-300: hsl(227, 12%, 61%);
+  --clr-blue-400: hsl(228, 39%, 23%);
+  --clr-blue-500: hsl(233, 12%, 13%);
+  --clr-gray-100: hsl(0, 0%, 98%);
+
+  --ff-main: 'Be Vietnam Pro';
+  --fw-400: 400;
+  --fw-500: 500;
+  --fw-700: 700;
+
+  @custom-media --media-xl (min-width: 1440px);
+  @custom-media --media-lg (min-width: 1024px);
+  @custom-media --media-sm (min-width: 375px);
+}
